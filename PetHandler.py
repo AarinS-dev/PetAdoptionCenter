@@ -5,6 +5,10 @@ class Pets:
         self.age = age
     def display_info(self):
         print(f"{self.name} is a {self.species} and is {self.age} years old")
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
         
 class PetFunctionality:
     def __init__(self):
